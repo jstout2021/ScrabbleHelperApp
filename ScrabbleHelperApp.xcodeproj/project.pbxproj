@@ -7,23 +7,37 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7027D736264E232500FF47C4 /* TileCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7027D735264E232500FF47C4 /* TileCell.swift */; };
+		7027D73A264E328C00FF47C4 /* Trie.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7027D739264E328C00FF47C4 /* Trie.swift */; };
+		7027D73D264E3F4400FF47C4 /* ScrabbleGame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7027D73C264E3F4400FF47C4 /* ScrabbleGame.swift */; };
+		7027D740264E416500FF47C4 /* dictionary.txt in Resources */ = {isa = PBXBuildFile; fileRef = 7027D73F264E416400FF47C4 /* dictionary.txt */; };
 		70831EA0264E0EC5007E7739 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70831E9F264E0EC5007E7739 /* AppDelegate.swift */; };
 		70831EA2264E0EC5007E7739 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70831EA1264E0EC5007E7739 /* SceneDelegate.swift */; };
-		70831EA4264E0EC5007E7739 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70831EA3264E0EC5007E7739 /* ViewController.swift */; };
+		70831EA4264E0EC5007E7739 /* MainVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70831EA3264E0EC5007E7739 /* MainVC.swift */; };
 		70831EA7264E0EC5007E7739 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70831EA5264E0EC5007E7739 /* Main.storyboard */; };
 		70831EA9264E0EC6007E7739 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 70831EA8264E0EC6007E7739 /* Assets.xcassets */; };
 		70831EAC264E0EC6007E7739 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 70831EAA264E0EC6007E7739 /* LaunchScreen.storyboard */; };
+		70831EB9264E164F007E7739 /* Tile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70831EB8264E164F007E7739 /* Tile.swift */; };
+		70CAFA62264EB2D100EFAF0E /* LettersDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CAFA61264EB2D100EFAF0E /* LettersDataSource.swift */; };
+		70CAFA65264EB3E800EFAF0E /* WordCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 70CAFA64264EB3E800EFAF0E /* WordCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7027D735264E232500FF47C4 /* TileCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TileCell.swift; sourceTree = "<group>"; };
+		7027D739264E328C00FF47C4 /* Trie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Trie.swift; sourceTree = "<group>"; };
+		7027D73C264E3F4400FF47C4 /* ScrabbleGame.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScrabbleGame.swift; sourceTree = "<group>"; };
+		7027D73F264E416400FF47C4 /* dictionary.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = dictionary.txt; sourceTree = "<group>"; };
 		70831E9C264E0EC5007E7739 /* ScrabbleHelperApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrabbleHelperApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		70831E9F264E0EC5007E7739 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		70831EA1264E0EC5007E7739 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		70831EA3264E0EC5007E7739 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		70831EA3264E0EC5007E7739 /* MainVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainVC.swift; sourceTree = "<group>"; };
 		70831EA6264E0EC5007E7739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		70831EA8264E0EC6007E7739 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		70831EAB264E0EC6007E7739 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		70831EAD264E0EC6007E7739 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		70831EB8264E164F007E7739 /* Tile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tile.swift; sourceTree = "<group>"; };
+		70CAFA61264EB2D100EFAF0E /* LettersDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LettersDataSource.swift; sourceTree = "<group>"; };
+		70CAFA64264EB3E800EFAF0E /* WordCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WordCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +70,46 @@
 		70831E9E264E0EC5007E7739 /* ScrabbleHelperApp */ = {
 			isa = PBXGroup;
 			children = (
+				70831EB7264E1609007E7739 /* Model */,
+				70831EB6264E1602007E7739 /* View */,
+				70831EB5264E15F5007E7739 /* Controller */,
 				70831E9F264E0EC5007E7739 /* AppDelegate.swift */,
 				70831EA1264E0EC5007E7739 /* SceneDelegate.swift */,
-				70831EA3264E0EC5007E7739 /* ViewController.swift */,
 				70831EA5264E0EC5007E7739 /* Main.storyboard */,
 				70831EA8264E0EC6007E7739 /* Assets.xcassets */,
 				70831EAA264E0EC6007E7739 /* LaunchScreen.storyboard */,
 				70831EAD264E0EC6007E7739 /* Info.plist */,
 			);
 			path = ScrabbleHelperApp;
+			sourceTree = "<group>";
+		};
+		70831EB5264E15F5007E7739 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				70831EA3264E0EC5007E7739 /* MainVC.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		70831EB6264E1602007E7739 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				7027D735264E232500FF47C4 /* TileCell.swift */,
+				70CAFA64264EB3E800EFAF0E /* WordCell.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		70831EB7264E1609007E7739 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				7027D73F264E416400FF47C4 /* dictionary.txt */,
+				70831EB8264E164F007E7739 /* Tile.swift */,
+				7027D739264E328C00FF47C4 /* Trie.swift */,
+				7027D73C264E3F4400FF47C4 /* ScrabbleGame.swift */,
+				70CAFA61264EB2D100EFAF0E /* LettersDataSource.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,6 +171,7 @@
 			files = (
 				70831EAC264E0EC6007E7739 /* LaunchScreen.storyboard in Resources */,
 				70831EA9264E0EC6007E7739 /* Assets.xcassets in Resources */,
+				7027D740264E416500FF47C4 /* dictionary.txt in Resources */,
 				70831EA7264E0EC5007E7739 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,9 +183,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				70831EA4264E0EC5007E7739 /* ViewController.swift in Sources */,
+				70CAFA62264EB2D100EFAF0E /* LettersDataSource.swift in Sources */,
+				70831EA4264E0EC5007E7739 /* MainVC.swift in Sources */,
+				7027D73D264E3F4400FF47C4 /* ScrabbleGame.swift in Sources */,
+				70CAFA65264EB3E800EFAF0E /* WordCell.swift in Sources */,
 				70831EA0264E0EC5007E7739 /* AppDelegate.swift in Sources */,
 				70831EA2264E0EC5007E7739 /* SceneDelegate.swift in Sources */,
+				7027D73A264E328C00FF47C4 /* Trie.swift in Sources */,
+				70831EB9264E164F007E7739 /* Tile.swift in Sources */,
+				7027D736264E232500FF47C4 /* TileCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
